@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,600&family=Righteous&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fbe4d8;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #190019;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #854f6c;
+}
+
+.juss {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.juss h1 {
+    font-size: 50px;
+    color: #190019;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #2b124c;
+    
+}
+
+.juss p{
+    color: #522b5b;
+    line-height: 22px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.juss a{
+    background: #190019;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fbe4d8;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .juss{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: #854f6c;
+}
